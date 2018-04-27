@@ -19,7 +19,6 @@ class App extends Component {
     .then(Products => {
       this.setState({list: Products, Products: Products})
     })
-
   }
 
   constructor() {
